@@ -4,17 +4,19 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Navbar from "./components/Navbar";
 import { getTickets } from "./api/Tickets";
 function App() {
-  const [groupBy, setGroupBy] = React.useState("status");
-  const [orderBy, setOrderBy] = React.useState("title");
+  const [groupBy, setGroupBy] = React.useState(localStorage.getItem("grp") || "status" );
+  const [orderBy, setOrderBy] = React.useState(localStorage.getItem("ord") || "title");
   const [Tickets, setTickets] = React.useState([]);
   const [users, setUsers] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState(null);
   function handleGroupByChange(value) {
+    localStorage.setItem("grp",value);
     setGroupBy(value);
   }
 
   function handleOrderByChange(value) {
+    localStorage.setItem("ord",value);
     setOrderBy(value);
   }
   useEffect(() => {
