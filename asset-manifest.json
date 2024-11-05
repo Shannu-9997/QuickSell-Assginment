@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QuickSell-Assginment/static/css/main.4cb19327.css",
-    "main.js": "/QuickSell-Assginment/static/js/main.9285d5bc.js",
+    "main.js": "/QuickSell-Assginment/static/js/main.194470ca.js",
     "static/js/453.52f1ef82.chunk.js": "/QuickSell-Assginment/static/js/453.52f1ef82.chunk.js",
     "static/media/profile.png": "/QuickSell-Assginment/static/media/profile.ce2f6cdef5fccb13e8bc.png",
     "static/media/Display.svg": "/QuickSell-Assginment/static/media/Display.0168095040354204011b596e30abf32e.svg",
@@ -21,11 +21,11 @@
     "static/media/featuredot.svg": "/QuickSell-Assginment/static/media/featuredot.a119d5d9dd9e506609f720d2a7c2ed73.svg",
     "static/media/To-do.svg": "/QuickSell-Assginment/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
     "main.4cb19327.css.map": "/QuickSell-Assginment/static/css/main.4cb19327.css.map",
-    "main.9285d5bc.js.map": "/QuickSell-Assginment/static/js/main.9285d5bc.js.map",
+    "main.194470ca.js.map": "/QuickSell-Assginment/static/js/main.194470ca.js.map",
     "453.52f1ef82.chunk.js.map": "/QuickSell-Assginment/static/js/453.52f1ef82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cb19327.css",
-    "static/js/main.9285d5bc.js"
+    "static/js/main.194470ca.js"
   ]
 }
